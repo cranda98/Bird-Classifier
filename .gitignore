@@ -28,3 +28,23 @@ env/
 
 # Keep this file in the repo
 !.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+myenv/
+
+# TensorFlow / model weights
+*.h5
+*.pb
+saved_model/
+
+# Large data (don't commit full image datasets)
+data/Birds/
+data/test/
+
+# OS
+.DS_Store
